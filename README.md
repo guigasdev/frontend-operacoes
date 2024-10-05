@@ -113,10 +113,3 @@ Os testes para os serviços de operações matemáticas podem ser executados usa
 ```bash
 mvn test
 ```
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um *pull request* ou relatar problemas.
-
-### Considerações Finais
-Esse README cobre tanto a parte do backend quanto do frontend, oferecendo uma visão abrangente do projeto. Você pode personalizá-lo ainda mais conforme necessário, especialmente para adicionar informações específicas sobre a implementação de Java e instruções para execução se optar por uma solução específica.
