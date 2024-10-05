@@ -10,39 +10,6 @@ Este projeto é uma aplicação web que fornece uma API para realizar várias op
 - **Maven** para gerenciamento de dependências
 - **HTML**, **CSS** e **JavaScript** para o frontend
 
-## Estrutura do Projeto
-
-```
-meu-projeto
-│
-├── backend                 // Código do backend (Spring Boot)
-│   ├── src
-│   │   ├── main
-│   │   │   ├── java
-│   │   │   │   └── com
-│   │   │   │       └── seu_pacote
-│   │   │   │           ├── controller         // Controllers para manipular requisições
-│   │   │   │           │   └── MathController.java  // Controller para operações matemáticas
-│   │   │   │           ├── service            // Classes de serviço (lógica de negócio)
-│   │   │   │           │   └── MathService.java    // Serviço para operações matemáticas
-│   │   │   │           ├── model              // Classes de modelo (entidades)
-│   │   │   │           │   └── Operacao.java        // Modelo para operações
-│   │   │   │           └── MeuProjetoSpringApplication.java // Classe principal
-│   │   │   └── resources
-│   │   │       └── application.properties    // Configurações da aplicação
-│   │   └── test
-│   │       └── java
-│   │           └── com
-│   │               └── seu_pacote
-│   │                   └── MathServiceTests.java // Testes para o serviço de operações matemáticas
-│   └── pom.xml // Arquivo de configuração do Maven
-│
-├── frontend                // Código do frontend (HTML, CSS, JavaScript)
-│   ├── index.html         // Página principal com botões para operações
-│   ├── style.css          // Estilização da aplicação
-│   └── script.js          // Lógica do JavaScript para operações
-└── README.md               // Documentação do projeto
-```
 
 ## Backend - Spring Boot
 
