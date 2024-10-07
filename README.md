@@ -10,18 +10,6 @@ Este projeto é uma aplicação web que fornece uma API para realizar várias op
 - **Maven** para gerenciamento de dependências
 - **HTML**, **CSS** e **JavaScript** para o frontend
 
-
-## Backend - Spring Boot
-
-### Instalação
-
-#### Pré-requisitos
-
-- Java JDK 17 ou superior
-- Maven
-
-#### Passos para Executar
-
 1. **Clone o Repositório**
 
    ```bash
@@ -29,64 +17,6 @@ Este projeto é uma aplicação web que fornece uma API para realizar várias op
    cd meu-projeto/backend
    ```
 
-2. **Instale as Dependências**
-
-   Execute o seguinte comando para baixar as dependências do projeto:
-
-   ```bash
-   mvn clean install
-   ```
-
-3. **Execute a Aplicação**
-
-   Você pode executar a aplicação usando o seguinte comando:
-
-   ```bash
-   mvn spring-boot:run
-   ```
-
-   A aplicação será iniciada em `http://localhost:8080`.
-
-### Endpoints da API
-
-A aplicação fornece os seguintes endpoints:
-
-1. **Contagem de Alunos Aprovados**
-   - **URL:** `/api/math/contagem-aprovados`
-   - **Método:** `GET`
-   - **Parâmetros:**
-     - `quantidade`: Número total de alunos.
-
-2. **Cálculo de Fibonacci**
-   - **URL:** `/api/math/fibonacci`
-   - **Método:** `GET`
-   - **Parâmetros:**
-     - `termos`: Número de termos a serem gerados.
-
-3. **Máximo Divisor Comum (MDC)**
-   - **URL:** `/api/math/mdc`
-   - **Método:** `GET`
-   - **Parâmetros:**
-     - `a`: Primeiro número.
-     - `b`: Segundo número.
-
-4. **Verificação de Número Primo**
-   - **URL:** `/api/math/numero-primo`
-   - **Método:** `GET`
-   - **Parâmetros:**
-     - `numero`: O número a ser verificado.
-
-5. **Ordenação de Vetor**
-   - **URL:** `/api/math/ordenacao`
-   - **Método:** `GET`
-   - **Parâmetros:**
-     - `numeros`: Lista de números separados por vírgula.
-
-6. **Somador**
-   - **URL:** `/api/math/somador`
-   - **Método:** `GET`
-   - **Parâmetros:**
-     - `numeros`: Lista de números separados por vírgula.
 
 ## Frontend - HTML, CSS e JavaScript
 
